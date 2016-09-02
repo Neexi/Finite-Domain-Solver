@@ -1,0 +1,6 @@
+Forall [1..10] $ \n ->
+        Body $ n `Smaller` (n `Plus` Con 1)
+
+xs = [1..10]
+f = \n -> Body $ n `Smaller` (n `Plus` Con 1)
+
